@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>AXIS BANK</h1>
+            <P>Please enter your details carefully to cantinue</P>
+         
+         <div class="box">
+            <form class="form" action="menu.html" method="post" name="form" onsubmit="return validated()" novalidate >
+                <div class="font">USER</div>
+                <input type="text" name="user" id="user" placeholder="Enter user name" value="" required>
+                <div id="user_error">Invalid user</div>
+                <div class="font">Password</div>
+                <input type="password" name="password" id="password" placeholder="Enter user password" value="" required>
+                <div id="pass_error">Password Invalid</div>
+                <button class="submit" type="submit">Login</button>
+            </form> 
+         </div>
+        </div>
+         
+    </div>
+
+  
+      
+
+
+</body>
+<script rel="script" src="script.js"></script>
+
+</html>
